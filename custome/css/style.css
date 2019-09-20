@@ -198,6 +198,10 @@ button#sidebarCollapse {
 .folderListWrapper ul li a {
     color: #5d5757;
 }
+.boxCardListFolder {
+    margin-top: 20px;
+    padding-left: 4px;
+}
 /*******************************
 * setup recent folder
 *******************************/
@@ -232,11 +236,10 @@ button#sidebarCollapse {
     height: 80px;
 }
 span.rTitle {
-    font-size: 12px;
+    font-size: 13px;
     color: #2f2c2c;
 }
 .rSize {
-    text-align: center;
     font-size: 12px;
     padding-bottom: 9px;
     color: #9e9c9c;
@@ -248,6 +251,7 @@ span.rTitle {
     text-align: center;
     font-size: 11px;
     color: #8a8484;
+    text-transform: uppercase;
 }
 .recentFileTitle h3 {
     padding-left: 0px;
@@ -291,6 +295,13 @@ span.rTitle {
 }
 .rfolderContent {
     padding-right: 0px;
+}
+.rMoreContent {
+    margin-top: 10px;
+}
+.rMoreArrow {
+    font-size: 19px;
+    color: #a09b9b;
 }
 /***
 *right content
