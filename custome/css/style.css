@@ -168,6 +168,7 @@ button#sidebarCollapse {
     font-weight: 600;
 }
 .headerFolder {
+    margin-top: 16px;
     padding: 7px 4px 7px 3px;
     border-bottom: 1px solid #ece9e9;
     display: block;
@@ -344,4 +345,22 @@ span.memberTime {
 }
 .boxContentRight{
     border-left: 1px solid #eaeaea;
+    height: 100vh;
+}
+.dropdown-menu{
+    position: absolute!important;
+    transform: translate3d(-57px, 16px, 0px);
+    left: -18px!important;
+    will-change: transform;
+    width: 103px!important;
+    top: 19px!important;
+}
+#sidebar ul li.active>a, a[aria-expanded="true"] {
+    color: #000!important;
+    background: #ffffff!important;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    margin-top: -8px;
 }
