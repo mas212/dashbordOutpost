@@ -299,6 +299,7 @@ span.rTitle {
     height: 35px;
     border-radius: 50%;
 }
+.boxContent ul,
 .accountBox ul{
     margin: 0;
     padding: 0;
@@ -310,4 +311,37 @@ span.rTitle {
 }
 .accountBox {
     margin-top: 20px;
+}
+.lastTitle h3 {
+    font-size: 15px;
+    margin-top: 21px;
+    margin-left: 18px;
+}
+.lastMember img{
+    width: 46px;
+    height: 46px;
+    border-radius: 100%;
+}
+.boxContent {
+    padding-left: 16px;
+    padding-right: 7px;
+}
+.boxContent ul li {
+    font-size: 13px;
+    color: #6d6b6b;
+    margin-bottom: 22px;
+}
+span.memberName {
+    font-weight: bold;
+}
+span.memberTime {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #9a9696;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boxContentRight{
+    border-left: 1px solid #eaeaea;
 }
