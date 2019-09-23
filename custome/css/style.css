@@ -222,6 +222,8 @@ button#sidebarCollapse {
 .rfolderList {
     padding-left: 4px;
     padding-right: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .headIcon ul li {
     display: inline-block;
@@ -263,6 +265,7 @@ span.rTitle {
     padding-left: 13px;
     padding-right: 0px;
 }
+#products h3,
 .rfolderContent h3{
     padding-left: 0px;
     margin-left: -9px;
@@ -375,3 +378,67 @@ span.memberTime {
     padding: .5rem 1rem;
     margin-top: -8px;
 }
+/************
+*list & grid
+**************/
+.thumbnail
+{
+    margin-bottom: 20px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.item.list-group-item{
+    float: none;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.item.list-group-item:nth-of-type(odd):hover,.item.list-group-item:hover{
+    background: #428bca;
+}
+
+.item.list-group-item .list-group-image{
+    margin-right: 10px;
+}
+.item.list-group-item .thumbnail{
+    margin-bottom: 0px;
+}
+.item.list-group-item .caption{
+    padding: 9px 9px 0px 9px;
+}
+.item.list-group-item:nth-of-type(odd){
+    background: #eeeeee;
+}
+
+.item.list-group-item:before, .item.list-group-item:after{
+    display: table;
+    content: " ";
+}
+
+.item.list-group-item img{
+    float: left;
+}
+.item.list-group-item:after{
+    clear: both;
+}
+.list-group-item-text{
+    margin: 0 0 11px;
+}
+.card {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iconfile {
+    font-size: 38px;
+    text-align: center;
+    margin-left: 28px;
+}
+/****************
+*modal
+****************/
